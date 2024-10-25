@@ -44,7 +44,7 @@
 
 
     // из урла получаем данные по  параметрам
-    // https://your-website.ru/some-folder/task-in-filter.php?secret=parole&filter=123456
+    // https://your-website.ru/some-folder/tasks-count-in-filter.php?secret=parole&filter=123456
 
     $filter=htmlspecialchars($_GET['filter']);
     $parole=htmlspecialchars($_GET['secret']);
